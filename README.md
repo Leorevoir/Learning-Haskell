@@ -1,17 +1,17 @@
 # Learning-Haskell
 
-> Welcome to my Learning-Haskell repository!
+> Welcome to my Learning-Haskell repository! 😆
 > This repository showcases my very first steps in Haskell.
 
 ## Modules
 
-1. `operations.hs`: This module contains exercices related to simples `mathematical operations`.
+1. [operations.hs](https://github.com/Leorevoir/Learning-Haskell/blob/main/Ex1/operations.hs): This module contains exercices related to simples `mathematical operations`.
 
-2. `string.hs`: This module contains exercises related to `string manipulation`.
+2. [string.hs](https://github.com/Leorevoir/Learning-Haskell/blob/main/Ex1/string.hs): This module contains exercises related to `string manipulation`.
 
-3. `weekday.hs`: This module contains exercises related to `enum manipulation`.
+3. [weekday.hs](https://github.com/Leorevoir/Learning-Haskell/blob/main/Ex2/weekday.hs): This module contains exercises related to `enum manipulation`.
 
-4. `instances.hs`: This module contains exercises related to the `instances`, `Semigroup` and `Monoid` data type, and to the `mempty` and `mappend` functions.
+4. [instances.hs](https://github.com/Leorevoir/Learning-Haskell/blob/main/Ex2/instances.hs): This module contains exercises related to the `instances`, `Semigroup` and `Monoid` data type, and to the `mempty` and `mappend` functions.
 
 ## Usage
 
