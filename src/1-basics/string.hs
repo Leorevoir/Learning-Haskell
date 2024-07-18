@@ -1,5 +1,3 @@
-import Distribution.Text (display)
-import Distribution.Compat.CharParsing (lower)
 {--
 Basic string operations in Haskell
 --}

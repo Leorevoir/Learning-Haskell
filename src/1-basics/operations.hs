@@ -4,6 +4,16 @@ Basic operations in Haskell
 All functions support arithmetic operations on integers or floats.
 --}
 
+module Operations (
+    addNum,
+    subNum,
+    multNum,
+    divNum,
+    sumOfSquares,
+    lastDigit,
+    listProduct
+) where
+
 -- add integers or float
 addNum :: Num a => a -> a -> a
 addNum x y = x + y
@@ -44,4 +54,3 @@ listProduct [] = 1
 listProduct (x:xs)
     | x == 0 = 0
     | otherwise = x * listProduct xs
-
