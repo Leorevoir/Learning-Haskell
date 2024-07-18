@@ -2,6 +2,12 @@
 Basic string operations in Haskell
 --}
 
+module String (
+    subString,
+    sumString,
+    duplicate,
+    lowerAndGreater
+) where
 
 -- function that takes start, end positions and string
 -- return the substring
@@ -36,3 +42,7 @@ lowerAndGreater n xs =
       ++ show greater_than
       ++ " elements."
 
+
+-- clean useless spaces in string
+cleanStr :: [Char] -> [Char]
+cleanStr = unwords . words
